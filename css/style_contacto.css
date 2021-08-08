@@ -192,6 +192,7 @@ nav{
     border-color: #490a98;
     color: #490a98;
     vertical-align: super;
+    border-radius: 0px;
  }
 
  .formulario textarea{
@@ -201,6 +202,7 @@ nav{
     font-family: 'Gilroy', sans-serif;
     color: #868383;
     vertical-align: text-top;
+    border-radius: 0px;
  }
 
 
@@ -219,6 +221,7 @@ nav{
     border-right: hidden;
     border-top: hidden;
     border-color: #490a98;
+    border-radius: 0px;
     width: 300px;
 }
 
@@ -228,6 +231,7 @@ nav{
     font-style: oblique;
     font-family: 'Gilroy', sans-serif;
     color: #868383;
+    border-radius: 0px;
     vertical-align: text-top;
  }
 
@@ -241,6 +245,12 @@ nav{
     cursor: pointer;
     float: left;
  }
+
+ .formulario2 a:hover{
+     background-color: #f3ca43;
+     color: #490a98;
+     transform: scale(1.1);
+    }
 
 /* FOOTER */
 footer{
