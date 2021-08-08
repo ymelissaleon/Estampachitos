@@ -1,0 +1,136 @@
+@media (max-width: 576px) and (max-width:768px){
+
+    .nav__box img{
+        width: -webkit-fill-available;
+        height: auto;
+    }
+    
+    .nav__box a h3{
+        padding: 5px;
+    }
+    
+    .nav__links{
+        width: 100%;
+        height: auto;
+       display: flex;
+       flex-flow: row wrap; 
+       align-content: space-around;
+    }
+    .nav__links a{
+        padding: 4px;
+    }
+    
+
+    .tittleBox{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .tittleBox__decor{
+        width: 308px;
+        height: 45px;
+        margin-left: 6px;
+    }
+    
+    .tittleBox__decor h1{
+        width: 300px;
+        height: 40px;
+        font-size: 28px;
+        margin-left: 8px;
+        margin-top: 4px;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .formulario{
+        margin-left: 10px;
+    }
+
+    .formulario label{
+        font-size: 18px;
+    }
+
+    .formulario select {
+        font-size: 15px;
+    }
+
+    .formulario a{
+        font-size: 16px;
+    }
+
+    .formulario2{
+        margin-left: 10px;
+    }
+
+
+    .formulario2 label{
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .formulario2 select {
+        font-size: 15px;
+    }
+
+    .formulario2 a{
+        font-size: 25px;
+        border-radius: 2px;
+        margin-left: 125px;
+        margin-top: 20px;
+    }
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__caja{
+        width:100% ;
+        height: auto;
+        text-align: center;
+
+    }
+ }
+
+ @media (min-width: 768px) and (max-width:1024px){
+    
+    .tittleBox{
+       width: 100%;
+       height: auto;
+       margin-top: 10px;
+       margin-left: 5px;
+       margin-bottom: 20px;
+   }
+   
+   
+   .tittleBox__decor{
+       width: 352px;
+       height: 60px;
+       margin-left: 10px;
+   }
+   
+   .tittleBox__decor h1{
+       width: 350px;
+       height: 50px;
+       font-size: 34px;
+       margin-left: 8px;
+       margin-top: 6px;
+   }
+
+   form{
+       margin-top: 120px;
+   }
+}

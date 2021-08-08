@@ -1,0 +1,150 @@
+@media (max-width: 576px) and (max-width:768px){
+
+.nav__box img{
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.nav__box a h3{
+    padding: 5px;
+}
+
+.nav__links{
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-flow: row wrap; 
+   align-content: space-around;
+}
+.nav__links a{
+    padding: 4px;
+}
+
+
+.obra{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.obra__img{
+    width: 100%;
+    height: auto;
+}
+ 
+.obra__img img{
+    width: 370px;
+    height: auto;
+    margin-left: 0;
+}
+
+.obra__text{
+    width: 100%;
+    height: auto;
+}
+
+.obra__text h2{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.obra__text p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.historia{
+    margin-top: 0px;
+}
+
+.historia__text h2{
+    font-size: 40px;
+}
+
+.historia__text p{
+    font-size: 20px;
+}
+
+.pachos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 336px;
+    margin-bottom: 400px;
+}
+.pachos__fotos{
+    margin-top: 8px;
+    padding: 10px;
+}
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__caja{
+        width:100% ;
+        height: auto;
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    
+ .obra{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.obra__img{
+    width: 100%;
+    height: auto;
+}
+ 
+.obra__img img{
+    width: 370px;
+    height: auto;
+    margin-left: 0;
+}
+
+.obra__text{
+    width: 100%;
+    height: auto;
+}
+
+.obra__text h2{
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.obra__text p{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.historia{
+    margin-top: 0px;
+}
+
+.historia__text h2{
+    font-size: 60px;
+}
+
+.historia__text p{
+    font-size: 30px;
+}
+
+.pachos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 336px;
+    margin-bottom: 400px;
+}
+.pachos__fotos{
+    margin-top: 8px;
+    padding: 10px;
+}
+}
