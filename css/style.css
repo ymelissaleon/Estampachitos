@@ -14,7 +14,7 @@ body{
 
 
 /* BARRA DE NAVEGACION */
-nav{ 
+.nav__full{ 
     position: sticky;
     top:0px;    
     font-family: 'Roboto', sans-serif;              
@@ -76,8 +76,10 @@ nav{
             transform: scale(1.15);
 
         }
-
-
+ /* OCULTA MENU RESPONSIVE */
+.nav__responsive{
+    display: none;
+}
 
 
 /* BANNER INICIO (en el futuro será un carrusel con tres imágenes)*/
