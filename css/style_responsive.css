@@ -22,7 +22,7 @@
 }
 
 .nav__responsive span {
-  padding : 30px;
+  padding : 20px;
   background : #e0e0e0; 
   color : #490a98;
   font-size : 1.2em;
@@ -52,7 +52,7 @@
 }
 
 .nav__slide li {
-    padding : 30px;
+    padding : 20px;
 }
 
 #touch {
@@ -62,7 +62,7 @@
 }    
 
 #touch:checked + .nav__slide {
-    height: 300px;
+    height: 350px;
 } 
     
 
