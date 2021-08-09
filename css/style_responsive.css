@@ -8,10 +8,12 @@
         padding: 5px;
     }
     
+    /* OCULTA MENU NORMAL */
     .nav__full{
         display: none;
     }
 
+    /* MUESTRA MENU RESPONSIVE */
 .nav__responsive {
     display: block;
     width : 100%;
@@ -64,7 +66,7 @@
 } 
     
 
-   
+/* SECCION PRODUCTOS    */
 
     .vistaShop{
         display: flex;
@@ -86,6 +88,8 @@
         font-size: 20px;
     }
 
+    /* SECCION "PRODUCTOS MAS BACANES" */
+
     .products__linea h2{
         font-size: 50px;
     }
@@ -106,7 +110,7 @@
         z-index: 1;
     }
 
-
+/* FOOTER  */
 
     footer{
         display: flex;
@@ -123,7 +127,7 @@
     }
  }
     
- @media (max-width: 768px) and (max-width:1024px){
+ @media (min-width: 768px) and (max-width:1024px){
  
     .vistaShop__texto h2{
         font-size: 50px;

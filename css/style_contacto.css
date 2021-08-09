@@ -77,6 +77,11 @@ nav{
 
         }
 
+ /* OCULTA MENU RESPONSIVE */
+.nav__responsive{
+    display: none;
+}
+
 
 /*TITULOS*/
 
