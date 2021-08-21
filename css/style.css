@@ -44,7 +44,7 @@ body{
          color: #490a98;
          border-style: solid 4px;
          border-color: #490a98;
-         
+         cursor: pointer;
      }
 
 .nav__box a h3:hover{
