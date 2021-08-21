@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style_catalogo.css">
     <link rel="stylesheet" href="../css/style_catalogo_responsive.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css.map">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css.map">
     <title>Productos</title>
 </head>
 <body>
@@ -20,14 +32,41 @@
                      <a><h3>Buscar</h3></a>
                  </div>
  
-                 <div class="nav__box">
-                    <a href="../index.html"><img src="../Multimedia/estampanchitos-logo1.png" alt="Estampachitos" height="150px" width="150px"></a>
-                </div>
+                 <div class="nav__box animate__bounceIn">
+                     <img src="Multimedia/estampanchitos-logo1.png" alt="Estampachitos" height="150px" width="150px">
+                 </div>
                  
                  <div class="nav__box">
-                     <a><h3>Despachos</h3></a>
+                     <a data-toggle="modal" data-target="#modalDesp" id="modalDespacho"><h3>Despachos</h3></a>
                  </div> 
              </div>
+ <!-- Modal Despachos -->
+ <div class="modal fade" id="modalDesp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel">Despachos</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body">
+             <ul>
+                 <li>Despachos gratis en Región Metropolitana. </li>
+                 <li>Despachos en 48 horas.</li>
+                 <li>Despacho a regiones dependen de empresa de correos.</li>
+                 <li>Te ofrecemos id de paquete para seguimiento del mismo.</li>
+             </ul>
+           
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+         </div>
+       </div>
+     </div>
+   </div>
+ 
         <!-- BARRA NAVEGACION -->
         <nav class="nav__full">
              
@@ -132,4 +171,24 @@
     
 </FOOTER>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/bootstrap.bundle.js.map"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js.map"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.js.map"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js.map"></script>
+
+<script>
+    // desplegar modal despachos
+    $(document).ready(function () {
+        $("#modalDespacho").on("click", function () {
+            $('#modalDesp').modal('show');
+        });
+    });
+</script>
+
 </html>
