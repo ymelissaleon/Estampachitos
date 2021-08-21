@@ -73,35 +73,11 @@ body {
   margin: 0px; }
 
 .bannerInicio {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  max-height: auto;
   margin: 0px;
   position: relative;
   text-align: center; }
-
-.bannerInicio input {
-  position: absolute;
-  opacity: 0;
-  margin-top: 95vh;
-  cursor: pointer; }
-
-.bannerInicio label {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border: solid 2px white;
-  border-radius: 999px;
-  background-color: transparent;
-  margin: 95vh 6px 0 6px;
-  z-index: 2;
-  cursor: pointer;
-  transition-duration: .4s; }
-
-.bannerInicio input:checked + label {
-  background-color: white; }
-
-.bannerInicio input:focus + label {
-  box-shadow: 0 0 0 2px teal, 0 0 18px white; }
 
 .slide {
   position: absolute;
@@ -112,26 +88,9 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
-  transform: translateX(-100%);
+  z-index: 1;
   transition-duration: .4s;
   opacity: 1; }
-
-.bannerInicio input:checked ~ .slide {
-  transform: translateX(100%); }
-
-.bannerInicio input:checked + label + .slide {
-  transform: translateX(0);
-  opacity: 1; }
-
-.bg1 {
-  background-image: url(../Multimedia/home-banner1.gif); }
-
-.bg2 {
-  background-image: url(../Multimedia/banner2.gif); }
-
-.bg3 {
-  background-image: url(../Multimedia/banner3.gif); }
 
 /* SECCION - PRODUCTOS */
 .vistaShop {
