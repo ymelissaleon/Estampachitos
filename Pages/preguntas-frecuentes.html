@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">    
+    <link rel="stylesheet" href="../css/preguntas_style.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/bootstrap-grid.css">
     <link rel="stylesheet" href="../css/bootstrap-grid.css.map">
@@ -37,34 +37,10 @@
                  </div>
                  
                  <div class="nav__box">
-                     <a data-toggle="modal" data-target="#modalDesp" id="modalDespacho"><h3>Despachos</h3></a>
+                     <a data-toggle="modal" data-target="#modalDesp4" id="modalDespacho4"><h3>Despachos</h3></a>
                  </div> 
              </div>
- <!-- Modal Despachos -->
- <div class="modal fade" id="modalDesp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h5 class="modal-title" id="exampleModalLabel">Despachos</h5>
-           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-             <span aria-hidden="true">&times;</span>
-           </button>
-         </div>
-         <div class="modal-body">
-             <ul>
-                 <li>Despachos gratis en Región Metropolitana. </li>
-                 <li>Despachos en 48 horas.</li>
-                 <li>Despacho a regiones dependen de empresa de correos.</li>
-                 <li>Te ofrecemos id de paquete para seguimiento del mismo.</li>
-             </ul>
-           
-         </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-         </div>
-       </div>
-     </div>
-   </div>
+ 
  
         <!-- BARRA NAVEGACION -->
         <nav class="nav__full">
@@ -94,6 +70,32 @@
           
           </nav> 
     </header> 
+
+    <!-- Modal Despachos -->
+ <div class="modal fade" id="modalDesp4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">Despachos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">s
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li>Despachos gratis en Región Metropolitana. </li>
+                <li>Despachos en 48 horas.</li>
+                <li>Despacho a regiones dependen de empresa de correos.</li>
+                <li>Te ofrecemos id de paquete para seguimiento del mismo.</li>
+            </ul>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- TITULO -->
     <div class="tittleBox scale-in-bl">
@@ -196,8 +198,8 @@
 <script>
     // desplegar modal despachos
     $(document).ready(function () {
-        $("#modalDespacho").on("click", function () {
-            $('#modalDesp').modal('show');
+        $("#modalDespacho4").on("click", function () {
+            $('#modalDesp4').modal('show');
         });
     });
 </script>
