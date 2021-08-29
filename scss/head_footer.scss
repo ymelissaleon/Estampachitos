@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3f3e3e;
+}
+
+
+
+/* BARRA DE NAVEGACION */
+.nav__full{ 
+    position: sticky;
+    top:0px;    
+    font-family: 'Roboto', sans-serif;              
+    color: #490a98;
+  }
+
+  .nav__top {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 160px; 
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .nav__box{
+      width: 33%;
+      height: auto;  
+      text-align: center; 
+      a{
+          h3{
+         color: #490a98;
+         border-style: solid 4px;
+         border-color: #490a98;
+         cursor: pointer;
+        }  
+        h3:hover{
+            transform: scale(1.1);
+        }
+        } 
+    }
+
+    .nav__links {
+        background-color: #e0e0e0;
+        width: 100%;
+        height: 80px;  
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        align-content: space-around;
+        justify-content: space-evenly;
+        text-align: center; 
+        
+        a{
+            color: #490a98;
+            font-size: 23px;       
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #ffffff;
+            background-color: #06d9e0;
+            text-decoration: none;
+            transform: scale(1.15);
+        }
+
+    }
+     
+        
+ /* OCULTA MENU RESPONSIVE */
+.nav__responsive{
+    display: none;
+}
+
+
+/* FOOTER */
+footer{
+    position: sticky;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #e0e0e0;
+    color: #490a98;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    
+}
+
+.footer__caja{
+    width: 33%;
+    height: auto;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    
+
+    h4{
+        a{
+            text-decoration: none;
+            color: #490a98;
+        }
+    
+        a:hover{
+            color: #f3ca43;
+            text-decoration: none;
+            transform: scale(1.1);
+        }
+    }
+
+    ul{
+        li{
+            a{
+            text-decoration: none;
+            color: #490a98;
+            }
+            
+            a:hover{
+            color: #f3ca43;
+            transform: scale(1.1);
+            }
+        }      
+
+    }
+}
+
+.footer__caja__logo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+    
