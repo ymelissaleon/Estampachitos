@@ -1,3 +1,5 @@
+@import "../scss/colores.scss";
+
 
 *{
     margin: 0;
@@ -6,7 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: #3f3e3e;
+    color: $gris_text;
 }
 
 
@@ -16,11 +18,11 @@ body{
     position: sticky;
     top:0px;    
     font-family: 'Roboto', sans-serif;              
-    color: #490a98;
+    color: $morado;
   }
 
   .nav__top {
-    background-color: #e0e0e0;
+    background-color: $gris_fondo;
     width: 100%;
     height: 160px; 
     display: flex;
@@ -36,9 +38,9 @@ body{
       text-align: center; 
       a{
           h3{
-         color: #490a98;
+         color: $morado;
          border-style: solid 4px;
-         border-color: #490a98;
+         border-color: $morado;
          cursor: pointer;
         }  
         h3:hover{
@@ -48,7 +50,7 @@ body{
     }
 
     .nav__links {
-        background-color: #e0e0e0;
+        background-color: $gris_fondo;
         width: 100%;
         height: 80px;  
         display: flex;
@@ -59,14 +61,14 @@ body{
         text-align: center; 
         
         a{
-            color: #490a98;
+            color: $morado;
             font-size: 23px;       
             text-decoration: none;
         }
 
         a:hover{
-            color: #ffffff;
-            background-color: #06d9e0;
+            color: $blanco;
+            background-color: $turquesa;
             text-decoration: none;
             transform: scale(1.15);
         }
@@ -85,8 +87,8 @@ footer{
     position: sticky;
     margin-bottom: 0px;
     width: 100%;
-    background-color: #e0e0e0;
-    color: #490a98;
+    background-color: $blanco;
+    color: $morado;
     text-decoration: none;
     display: flex;
     flex-flow: row nowrap;
@@ -108,11 +110,11 @@ footer{
     h4{
         a{
             text-decoration: none;
-            color: #490a98;
+            color: $morado;
         }
     
         a:hover{
-            color: #f3ca43;
+            color: $amarillo;
             text-decoration: none;
             transform: scale(1.1);
         }
@@ -122,11 +124,11 @@ footer{
         li{
             a{
             text-decoration: none;
-            color: #490a98;
+            color: $morado;
             }
             
             a:hover{
-            color: #f3ca43;
+            color: $amarillo;
             transform: scale(1.1);
             }
         }      
