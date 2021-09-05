@@ -117,7 +117,8 @@ footer {
     width: -webkit-fill-available;
     height: auto; }
   .nav__box a h3 {
-    padding: 5px; }
+    padding: 5px;
+    font-size: 1.4rem; }
   /* OCULTA MENU NORMAL */
   .nav__full {
     display: none; }
@@ -160,6 +161,17 @@ footer {
   #touch:checked + .nav__slide {
     height: 350px; }
   /* FOOTER  */
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .footer__caja {
+    width: 100%;
+    height: auto;
+    text-align: center; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
   footer {
     display: flex;
     flex-direction: column;

@@ -172,6 +172,17 @@ footer {
     height: auto;
     text-align: center; } }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .footer__caja {
+    width: 100%;
+    height: auto;
+    text-align: center; } }
+
 /*QUE HACEMOS*/
 .obra {
   display: grid;
