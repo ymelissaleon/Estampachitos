@@ -50,7 +50,8 @@ body {
   align-items: center;
   align-content: space-around;
   justify-content: space-evenly;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   .nav__links a {
     color: #490a98;
     font-size: 23px;

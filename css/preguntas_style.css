@@ -50,7 +50,8 @@ body {
   align-items: center;
   align-content: space-around;
   justify-content: space-evenly;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   .nav__links a {
     color: #490a98;
     font-size: 23px;
@@ -65,12 +66,19 @@ body {
 .nav__responsive {
   display: none; }
 
+/* MODAL */
+.modal span {
+  color: #490a98; }
+
+.modal-body ul {
+  padding: 2rem; }
+
 /* FOOTER */
 footer {
   position: sticky;
   margin-bottom: 0px;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #e0e0e0;
   color: #490a98;
   text-decoration: none;
   display: flex;
@@ -103,6 +111,14 @@ footer {
 .footer__caja__logo {
   margin-top: 10px;
   text-align: center; }
+
+.banner {
+  width: 100%;
+  height: 100%; }
+  .banner img {
+    height: 100%;
+    width: 100%;
+    z-index: 1; }
 
 /*TITULOS*/
 .tittleBox {
