@@ -181,77 +181,78 @@ footer{
     }
 
     /* MUESTRA MENU RESPONSIVE */
-.nav__responsive {
-    display: block;
-    width : 100%;
-    height: auto;
-    margin: 0; 
-
-    label{
-        width: 100%;
-    }
-
-    span {
-        padding : 20px;
-        background : $gris_fondo; 
-        color : $morado;
-        font-size : 1.2em;
-        font-variant : small-caps;
-        cursor : pointer;
+    .nav__responsive {
         display: block;
-    }
-      span::after {
-        float: right;
-        right: 10%;
-        content: "+";
-    }
+        width : 100%;
+        height: auto;
+        margin: 0; 
 
-    li {
-        a {
-            text-decoration: none; 
-            color: $morado;
+        label{
+        width: 100%;
+        }
+
+        span {
+            padding : 20px;
+            background : $gris_fondo; 
+            color : $morado;
+            font-size : 1.2em;
+            font-variant : small-caps;
+            cursor : pointer;
+            display: block;
+        }
+        span::after {
+            float: right;
+            right: 10%;
+            content: "+";
+        }
+
+        li {
+            a {
+                text-decoration: none; 
+                color: $morado;
+            }
         }
     }
-}
 
 
-.nav__slide {
-  clear:both;
-  width:100%;
-  height:0px;
-  overflow: hidden;
-  text-align: center;
-  transition: height .4s ease;
+    .nav__slide {
+        clear:both;
+        width:100%;
+        height:0px;
+        overflow: hidden;
+        text-align: center;
+        transition: height .4s ease;
 
-  li {
-    padding : 20px;
+        li {
+            padding : 20px;
+        }
     }
-}
 
 
-#touch {
-    position: absolute; 
-    opacity: 0; 
-    height: 0px;
-}    
+    #touch {
+        position: absolute; 
+        opacity: 0; 
+        height: 0px;
+    }    
 
-#touch:checked + .nav__slide {
-    height: 350px;
-} 
+    #touch:checked + .nav__slide {
+        height: 350px;
+    } 
 
 /* FOOTER  */
 
-footer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.footer__caja{
-    width:100% ;
-    height: auto;
-    text-align: center;
+    .footer__caja{
+        width:100% ;
+        height: auto;
+        text-align: center;
 
-}
+    }
+
 }

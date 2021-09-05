@@ -113,6 +113,65 @@ footer {
   margin-top: 10px;
   text-align: center; }
 
+@media (max-width: 576px) and (max-width: 768px) {
+  .nav__box img {
+    width: -webkit-fill-available;
+    height: auto; }
+  .nav__box a h3 {
+    padding: 5px;
+    font-size: 1.4rem; }
+  /* OCULTA MENU NORMAL */
+  .nav__full {
+    display: none; }
+  /* MUESTRA MENU RESPONSIVE */
+  .nav__responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0; }
+    .nav__responsive label {
+      width: 100%; }
+    .nav__responsive span {
+      padding: 20px;
+      background: #e0e0e0;
+      color: #490a98;
+      font-size: 1.2em;
+      font-variant: small-caps;
+      cursor: pointer;
+      display: block; }
+    .nav__responsive span::after {
+      float: right;
+      right: 10%;
+      content: "+"; }
+    .nav__responsive li a {
+      text-decoration: none;
+      color: #490a98; }
+  .nav__slide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease; }
+    .nav__slide li {
+      padding: 20px; }
+  #touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px; }
+  #touch:checked + .nav__slide {
+    height: 350px; }
+  /* FOOTER  */
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .footer__caja {
+    width: 100%;
+    height: auto;
+    text-align: center; } }
+
 /*QUE HACEMOS*/
 .obra {
   display: grid;
@@ -230,3 +289,79 @@ footer {
 .pachos__fotos:hover {
   transform: scale(1.2);
   transition: 1s; }
+
+@media (max-width: 576px) and (max-width: 768px) {
+  /* PACHOS  */
+  .obra {
+    display: flex;
+    flex-direction: column-reverse; }
+  .obra__img {
+    width: 100%;
+    height: auto; }
+  .obra__img img {
+    width: 370px;
+    height: auto;
+    margin-left: 0; }
+  .obra__text {
+    width: 100%;
+    height: auto; }
+  .obra__text h2 {
+    font-size: 40px;
+    margin-left: 10px; }
+  .obra__text p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px; }
+  .historia {
+    margin-top: 0px; }
+  .historia__text h2 {
+    font-size: 40px; }
+  .historia__text p {
+    font-size: 20px; }
+  .pachos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 336px;
+    margin-bottom: 400px; }
+  .pachos__fotos {
+    margin-top: 8px;
+    padding: 10px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .obra {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0; }
+  .obra__img {
+    width: 100%;
+    height: auto; }
+  .obra__img img {
+    width: 370px;
+    height: auto;
+    margin-left: 0; }
+  .obra__text {
+    width: 100%;
+    height: auto; }
+  .obra__text h2 {
+    font-size: 60px;
+    margin-left: 10px; }
+  .obra__text p {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px; }
+  .historia {
+    margin-top: 0px; }
+  .historia__text h2 {
+    font-size: 60px; }
+  .historia__text p {
+    font-size: 30px; }
+  .pachos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 336px;
+    margin-bottom: 400px; }
+  .pachos__fotos {
+    margin-top: 8px;
+    padding: 10px; } }
