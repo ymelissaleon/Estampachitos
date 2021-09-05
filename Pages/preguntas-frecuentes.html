@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/preguntas_style.css">
     <link rel="stylesheet" href="../css/style_preguntas_responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/Bootstrap/bootstrap-grid.css">
     <link rel="stylesheet" href="../css/Bootstrap/bootstrap-grid.css.map">
@@ -107,7 +107,7 @@
 </section>
 
 <!-- TITULO -->
-<div class="titulo">
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="titulo">
     <h1>SHOP</h1>
 </div>
 
@@ -120,7 +120,7 @@
                     <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i> ¿Tienen tienda física?</button>									
                 </h2>
             </div>
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
                     <p>No, somos tienda online. Hemos nacido durante la pandemia mundial, y como buena 'pandemial', trabajamos exclusivamente online.</p>
                 </div>
@@ -132,7 +132,7 @@
                     <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i> ¿Hacen envíos?</button>
                 </h2>
             </div>
-            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
                     <p>Sí, hacemos envíos a todo Chile. Ofrecemos envío a todas las regiones del país mediante Starken. Una vez es procesada la orden de compra en nuestro sitio web, 
                         tardamos de 1 a 2 (hábiles) en empaquetar y enviar tu pedido. El envío tarda aproximadamente de 1 a 3 días (hábiles) en llegar a destino. 
@@ -183,7 +183,7 @@
 </Section>
 
 <!-- TITULO -->
-<div class="titulo">
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="titulo">
     <h1>PRODUCT</h1>
 </div>
 
@@ -218,52 +218,60 @@
     </div>
 </Section>
 
+<!-- TITULO -->
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="titulo">
+    <h1>SHIPPING</h1>
+</div>
 
-
-
-<!-- PREGUNTAS -->
-<section class="preguntas">
-    <div class="preguntas__block__ask">
-
-        <br>
-        <h3> ¿Son tienda física?</h3>
-    </div>
-
-    <div class=" preguntas__block_ans">
-        <p>No, somos tienda online. Hemos nacido durante la pandemia mundial, y como buena 'pandemial', trabajamos exclusivamente online.</p>
-    </div>
-    
-    
-    <div class="preguntas__block__ask2">
-        <h3>¿Cómo puedo verificar la calidad de los materiales?</h3>
-    </div>
-
-    <div class="preguntas__block_ans2">
-        <p>Trabajamos materiales 100% orgánicos. Poleras 100% algodón, estampado vinil textil de alta calidad. Tazones para subimación Premium Plus</p>
-    </div>
-   
-
-    <div class="preguntas__block__ask3">            
-        <h3>¿Qué pasa si la prenda no me queda o no es de mi gusto?</h3>
-    </div>
-    
-        <div class="preguntas__block_ans3">
-            <p>Siempre es posible cambiar el producto. Para evitar que esto te suceda, siempre estamos informándote durante todo el proceso de elaboración de tu producto</p>
+<!-- ACORDEÓN -->
+<Section>
+    <div class="accordion accordion-flush" id="accordionExample3">
+        <div class="card">
+            <div class="card-header" id="headingEight">
+                <h2 class="mb-0">
+                    <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseEight"><i class="fa fa-plus"></i> ¿Por qué mi pedido aún no llega?</button>									
+                </h2>
+            </div>
+            <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#accordionExample3">
+                <div class="card-body">
+                    <p>UTardamos de 1 a 3 días hábiles en tener tu pedido listo y despacharlo. Tur Bus Cargo puede tardar de 1 a 3 días en despachar a tu domicilio/sucursal el pedido. 
+                        Recuerda que con el número de seguimiento que llegó a tu email puedes revisar el estado de este en la página de Starken (Tur Bus Cargo).</p>
+                </div>
+            </div>
         </div>
-   
-        <div class="preguntas__block__ask4">
-            <h3>¿Cómo puedo verificar el status de mi pedido?</h3>
+        <div class="card">
+            <div class="card-header" id="headingNine">
+                <h2 class="mb-0">
+                    <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseNine"><i class="fa fa-plus"></i> ¿Cómo puedo verificar el status de mi pedido?</button>
+                </h2>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample3">
+                <div class="card-body">
+                    <p>Puedes comunicarte con nosotros mediante nuestras redes sociales o WhatsApp. En caso de despacho a domicilio en el interior del país, se te suministrará el 
+                        código de despacho de tu envío para que puedas motirorearlo constantemente.
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="preguntas__block_ans4">
-            <p>Puedes comunicarte con nosotros mediante nuestras redes sociales o WhatsApp. En caso de despacho a domicilio en el interior del país, se te suministrará el código de despacho de tu envío para que puedas motirorearlo constantemente.</p>
+        <div class="card">
+            <div class="card-header" id="headingTen">
+                <h2 class="mb-0">
+                    <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseTen"><i class="fa fa-plus"></i> ¿Qué pasa si la prenda no me queda o no es de mi gusto?</button>
+                </h2>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample3">
+                <div class="card-body">
+                    <p>Siempre es posible cambiar el producto. Para evitar que esto te suceda, siempre estamos informándote durante todo el proceso de elaboración de tu producto.
+                    </p>
+                </div>
+            </div>
         </div>
-   
+    </div>
+</Section>
 
-
-
-</section>
-    
+<!-- ESPACIO EN BLANCO-->
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="titulo">
+    <h1>   </h1>
 </div>
 
 
@@ -302,6 +310,7 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../js/bootstrap.bundle.js"></script>
 <script src="../js/bootstrap.bundle.js.map"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
@@ -319,6 +328,10 @@
         });
     });
 </script>
+
+<script>
+    AOS.init();
+  </script>
 
 <script>
     $(document).ready(function(){
