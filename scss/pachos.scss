@@ -1,0 +1,159 @@
+@import "../scss/head_footer.scss";
+@import "../scss/colores.scss";
+
+
+
+/*QUE HACEMOS*/
+
+
+.obra{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 500px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.obra__img{
+    background-color: $lila;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    
+}
+
+.obra__text{
+    background-color: $blanco;
+    max-width: 100%;
+    max-height: auto;
+    justify-content: start;
+
+    h2{
+        color: $negro;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 80px;
+        margin-top: 20px;
+        margin-left: 20px;        
+    }
+    h2{
+        rotate: 360;
+    }
+    p{
+        color: $negro;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 35px;
+        text-align: start;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+/*QUIÉNES SOMOS*/
+.historia{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background-color: $amarillo;
+    margin-top: 80px;
+}
+
+.historia__text{
+    text-align: center;
+    margin-top: 10px;
+    h2{
+        color: $blanco;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 80px;
+        margin-top: 10px;
+    }
+    
+    p{
+        color: #FFFFFF;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 30px;
+        text-align: left;
+        padding: 5%;
+    }
+        
+}
+
+  
+
+/*PACHOS FOTOS*/
+
+.pachos{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: -30px;
+    padding: 5px;
+}
+
+.pachos__fotos{
+    max-width: 100%;
+    height: auto;
+    margin-top: -130px;
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.pachos__fotos:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+

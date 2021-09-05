@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "build-preg": "node-sass --include-path scss scss/preguntas.scss css/preguntas_style.css",
-
+    "build-pacho": "node-sass --include-path scss scss/pachos.scss css/pachos_style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
