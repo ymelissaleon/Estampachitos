@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="css/Bootstrap/bootstrap-grid.css">
@@ -133,7 +134,7 @@
     
     <!-- SECCION PRODUCTOS (futura animación) -->
         <section class="vistaShop" id="productos">
-            <div class="vistaShop__caja vistaShop__texto">             
+            <div data-aos="zoom-in-right" class="vistaShop__caja vistaShop__texto">             
 
                 <h2>Vasos Cerveceros Personalizados</h2>
                 <br>
@@ -143,16 +144,16 @@
             </div>
                
                 
-            <div class="vistaShop__caja vistaShop__img">
+            <div data-aos="zoom-in-left" class="vistaShop__caja vistaShop__img">
                 <img src="Multimedia/etp--banner-web--05.gif" >
             </div>
             
 
-            <div class="vistaShop__caja vistaShop__img">                
+            <div data-aos="zoom-in-right" class="vistaShop__caja vistaShop__img">                
                 <img src="Multimedia/etp--banner-web--06.gif">
             </div>
                 
-            <div class="vistaShop__caja vistaShop__texto">
+            <div data-aos="zoom-in-left" class="vistaShop__caja vistaShop__texto">
                 <h2>Regala una canción</h2>
                 <br>
                 <h3>Porque hay sentimientos que suenan y resuenan</h3>
@@ -166,7 +167,7 @@
         <div class="products__linea">
             <h2>Nuestras categorías más BACANES</h2>
         </div>
-        <div class="products__img">
+        <div data-aos="zoom-out" class="products__img">
             <div class="products__img__box">
                 <img src="Multimedia/etp--web---categoria---poleron.gif" width="350px" height="auto" alt="Tazas personalizadas">
             </div>
@@ -182,9 +183,8 @@
 
         </div>
 
-
     </section>
-        <!-- CAJA PARA IMAGENES DE PRUEBA -->
+       
         
             
     <!-- FOOTER -->
@@ -222,6 +222,7 @@
        
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/bootstrap.bundle.js.map"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -240,6 +241,8 @@
     });
 </script>
 
-
+<script>
+    AOS.init();
+</script>
 
 </html>
