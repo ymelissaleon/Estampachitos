@@ -82,12 +82,26 @@ body{
 }
 
 
+/* MODAL */
+.modal{
+    span{
+      color: $morado;  
+    }
+}
+
+.modal-body {
+    ul {
+    padding: 2rem;
+    }
+}
+ 
+
 /* FOOTER */
 footer{
     position: sticky;
     margin-bottom: 0px;
     width: 100%;
-    background-color: $blanco;
+    background-color: $gris_fondo;
     color: $morado;
     text-decoration: none;
     display: flex;

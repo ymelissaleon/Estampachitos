@@ -66,12 +66,19 @@ body {
 .nav__responsive {
   display: none; }
 
+/* MODAL */
+.modal span {
+  color: #490a98; }
+
+.modal-body ul {
+  padding: 2rem; }
+
 /* FOOTER */
 footer {
   position: sticky;
   margin-bottom: 0px;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #e0e0e0;
   color: #490a98;
   text-decoration: none;
   display: flex;
@@ -111,7 +118,7 @@ footer {
   grid-template-columns: 40% 60%;
   grid-template-rows: 500px;
   position: relative;
-  margin-top: 80px; }
+  margin-top: 120px; }
 
 .obra__img {
   background-color: #c8b5e0;
@@ -180,7 +187,7 @@ footer {
   height: auto;
   position: relative;
   background-color: #f3ca43;
-  margin-top: 80px; }
+  margin-top: 120px; }
 
 .historia__text {
   text-align: center;

@@ -6,12 +6,14 @@
 /*QUE HACEMOS*/
 
 
+
 .obra{
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 500px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 120px;
+
 }
 
 .obra__img{
@@ -101,7 +103,7 @@
     height: auto;
     position: relative;
     background-color: $amarillo;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .historia__text{

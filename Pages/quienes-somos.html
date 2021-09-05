@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/pachos_style.css">
     <link rel="stylesheet" href="../css/style_pachos_responsive.css">    
@@ -57,7 +58,7 @@
            
          </div>
          <div class="modal-footer">
-           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           <button type="button" class="btn btn-warning data-dismiss="modal">Close</button>
            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
          </div>
        </div>
@@ -96,13 +97,13 @@
     <!-- CAJAS DE INFORMACION -->
     <section>
         <div class="obra">
-            <div class="obra__img">
+            <div data-aos="fade-right" class="obra__img">
                 <img src="../Multimedia/estampanchitos-logo.png" alt="Estampachitos">
             </div>
-            <div class="obra__text">
+            <div data-aos="fade-left" class="obra__text">
                 <h2 class="tracking-in-expand-fwd"> ¿Qué Hacemos?</h2>
                 <p>Tenemos predilección por las poleras personalizadas. A ellas le han seguido nuestros polerones, tazas,shopperos, polos,
-                    y otro montón deproductos bonitos que, con la misma chispa y esencia divertida, están presentes en clases, oficinas, bodas,
+                    y otro montón de productos bonitos que, con la misma chispa y esencia divertida, están presentes en clases, oficinas, fiestas,
                     viajes, planes anuales, cumpleaños y todos los rincones especiales de los hogares.</p>
             </div>
         </div>
@@ -116,13 +117,13 @@
                 <p>Si llegaste hasta aquí es porque ahora mismo te estarás preguntando "¿y quiénes son Estampachitos?". 
                     Pues Estampachitos es como tu temazo favorito: muchas cosas a la vez. Es la actitud de viernes, 
                     es la sonrisa del primer día de vacaciones o el momento justo antes de soplar las velas del pastel. 
-                    Estampachitoses una forma de ver la vida, una marca que, desde el año 2011, crea productos con mensajes 
-                    que contagian felicidad y alegría.</p>
+                    Estampachitoses una forma de ver la vida, una marca que, desde el año 2020, crea productos con mensajes 
+                    y con imágenes que contagian felicidad y alegría.</p>
             </div>
         </div>
             
 
-        <div class="pachos">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"  class="pachos">
             <div class="pachos__fotos">
                 <img src="../Multimedia/Estampachitos---nos---vanessa-risueno.gif" width="350px" height="auto"  alt="Vane">
             </div>
@@ -173,6 +174,7 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../js/bootstrap.bundle.js"></script>
 <script src="../js/bootstrap.bundle.js.map"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
@@ -182,6 +184,10 @@
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/bootstrap.min.js.map"></script>
 
+<script>
+    AOS.init();
+</script>
+  
 <script>
     // desplegar modal despachos
     $(document).ready(function () {
