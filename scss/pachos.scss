@@ -1,6 +1,6 @@
 @import "../scss/head_footer.scss";
 @import "../scss/colores.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
 /*QUE HACEMOS*/
@@ -31,7 +31,7 @@
 
     h2{
         color: $negro;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         font-size: 80px;
         margin-top: 20px;
         margin-left: 20px;        
@@ -110,7 +110,7 @@
     margin-top: 10px;
     h2{
         color: $blanco;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         font-size: 80px;
         margin-top: 10px;
     }

@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-@import url("../Multimedia/Fonts/Gilroy-FREE/Gilroy-ExtraBold.otf");
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-@import url("../Multimedia/Fonts/Gilroy-FREE/Gilroy-ExtraBold.otf");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap");
 * {
   margin: 0;
@@ -118,7 +116,7 @@ footer {
     height: auto; }
   .nav__box a h3 {
     padding: 5px;
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
   /* OCULTA MENU NORMAL */
   .nav__full {
     display: none; }
@@ -127,7 +125,7 @@ footer {
     display: block;
     width: 100%;
     height: auto;
-    margin: 0; }
+    margin-bottom: -24px; }
     .nav__responsive label {
       width: 100%; }
     .nav__responsive span {
@@ -237,17 +235,17 @@ footer {
   .vistaShop__texto h2 {
     max-width: 100%;
     padding: 10px;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     color: #FFFFFF;
     font-size: 80px; }
   .vistaShop__texto h3 {
     max-width: 100%;
     padding: 10px;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 46px; }
   .vistaShop__texto a {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     background-color: #f3ca43;
     color: #FFFFFF;
     font-size: 28px;
@@ -282,7 +280,7 @@ footer {
   .products__linea h2 {
     margin: 0px;
     padding: 10px;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     color: #FFFFFF;
     font-size: 80px;
     text-align: center; }

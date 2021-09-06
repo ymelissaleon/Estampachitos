@@ -2,81 +2,16 @@
 @import "../scss/colores.scss";
 
 
-/*TITULOS*/
+//BANNER TITULO
+.banner__Catalogo{
+    width: 100%;
+    height: auto;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}   
 
- .tittleBox{    
-    width: 745px;
-    height: 100px;
-    background-color: $amarillo_claro;
-    margin-top: 50px;
-    margin-left: 30px;    
-    margin-bottom: 50px;
-}
-        
-.tittleBox__decor{
-    width: 695px;
-    height: 80px;
-    background-color: $lila;
-    position: absolute;       
-    margin-top: 15px;
-    margin-left: 23px;
-    vertical-align: middle;
-            
-    h1{
-        width: 678px;
-        height: 80px;
-        color: $blanco;
-        font-family: 'Gilroy', sans-serif;
-        font-size: 70px;
-        border-style: dotted;
-        border-color: $morado;
-        margin-top: -10px;
-        margin-left: 20px;    
-    }
-}
-        
-            
-.scale-in-bl {
-    -webkit-animation: scale-in-bl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: scale-in-bl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-        
-        
-@-webkit-keyframes scale-in-bl {
-    0% {
-        -webkit-transform: scale(0);
-            transform: scale(0);
-        -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
-        opacity: 1;
-        }
-    100% {
-        -webkit-transform: scale(1);
-            transform: scale(1);
-        -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
-        opacity: 1;
-    }
-}
-
-@keyframes scale-in-bl {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        -webkit-transform-origin: 0% 100%;
-        transform-origin: 0% 100%;
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform-origin: 0% 100%;
-        transform-origin: 0% 100%;
-        opacity: 1;
-    }
-}
-        
-        
 /*CATALOGO*/
         
 .catalogo{

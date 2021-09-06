@@ -2,6 +2,8 @@
 // head y footer 
 @import "../scss/head_footer.scss";
 @import "../scss/colores.scss";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap');
 
 /* BANNER INICIO (carrusel)*/
 .banner {     
@@ -74,7 +76,7 @@
     h2{
         max-width: 100%;
         padding: 10px;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         color: $blanco;
         font-size: 80px;
     }
@@ -82,13 +84,13 @@
     h3{
         max-width: 100%;
         padding: 10px;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: $blanco;
         font-size: 46px;
     }
 
     a{
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         background-color: $amarillo;
         color: $blanco;
         font-size: 28px;
@@ -134,7 +136,7 @@
     h2{
         margin: 0px;
         padding: 10px;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         color: $blanco;
         font-size: 80px;
         text-align: center;
