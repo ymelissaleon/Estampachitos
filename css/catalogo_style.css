@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -180,7 +182,9 @@ footer {
 
 .banner__Catalogo {
   width: 100%;
-  height: auto; }
+  height: auto;
+  position: relative;
+  margin: 0; }
   .banner__Catalogo img {
     height: 100%;
     width: 100%; }
