@@ -18,7 +18,7 @@ body {
   color: #490a98; }
 
 .nav__top {
-  background-color: #e0e0e0;
+  background-color: #e9e9e9;
   width: 100%;
   height: 160px;
   display: flex;
@@ -40,7 +40,7 @@ body {
     transform: scale(1.1); }
 
 .nav__links {
-  background-color: #e0e0e0;
+  background-color: #e9e9e9;
   width: 100%;
   height: 80px;
   display: flex;
@@ -76,7 +76,7 @@ footer {
   position: sticky;
   margin-bottom: 0px;
   width: 100%;
-  background-color: #e0e0e0;
+  background-color: #e9e9e9;
   color: #490a98;
   text-decoration: none;
   display: flex;
@@ -130,7 +130,7 @@ footer {
       width: 100%; }
     .nav__responsive span {
       padding: 20px;
-      background: #e0e0e0;
+      background: #e9e9e9;
       color: #490a98;
       font-size: 1.2em;
       font-variant: small-caps;
