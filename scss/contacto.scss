@@ -15,120 +15,126 @@
 
 
 //FORMULARIO
-
-.container {
-  
+ 
+  .container {
     margin-top: 100px;
-    
   }
   
   .contact-form {
-    list-style-type: none;
-    li {
-      div {
-        margin-bottom: 2.5em;
-      }
+        list-style-type: none;
+        li{
+            div {
+                margin-bottom: 2.5em;
+            }
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            margin: 0;
+            padding-bottom: 1.4em;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            border-bottom: 3px solid $amarillo;
+            background: $blanco;
+            font-family: "Roboto", sans-serif;
+            color: $gris_text;
+            font-weight: 700;
+            font-size: 18px;
+            transition: ease-in-out 0.25s;
+        }
+        textarea {
+            min-height: 50px;
+            max-height: 500px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            resize: vertical;
+            overflow: hidden;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 12px;
+            color:$gris_text;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        label {
+            font-size: 12px;
+            color: $gris_text;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: none;
+            resize: none;
+            border-bottom: 3px solid $morado;
+        }
+        #slider-range-min {
+            outline: 0;
+            background: $amarillo_claro;
+            height: 3.6em;
+            border: 0;
+            border-radius: 0;
+        }
+
+        #slider-range-min{
+            .ui-slider-range {
+                background: $morado;
+                border-radius: 0;
+            }
+          
+            .ui-slider-handle {
+                outline: 0;
+                top: 1.1em;
+                margin-left: -0.6em;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 0;
+                background: white;
+                cursor: pointer;
+            }
+        } 
+        #amount {
+            border: 0;
+            color: $gris_text;
+            font-weight: 500;
+            font-size: 28px;
+            padding-top: 1.1em;
+            letter-spacing: 3px;
+        }
+        button {
+            color: $gris_text;
+            background: rgba(34, 34, 34, 0);
+            border: 3px solid $morado;
+            height: 74px;
+            width: 200px;
+            float: right;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: ease-in-out 0.25s;
+
+            span {
+                transition: ease-in-out 0.25s;
+            }
+        }
+        button:hover {
+            background: $amarillo;
+            color: $negro;
+            span {
+                padding-left: 10px;
+                color: white;
+            }
+        }
     }
-    input,
-    textarea,
-    select {
-      width: 100%;
-      margin: 0;
-      padding-bottom: 1.4em;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      border-top: 0px;
-      border-right: 0px;
-      border-left: 0px;
-      border-bottom: 3px solid #f8d38e;
-      background: #fff;
-      font-family: 'Roboto', sans-serif;
-      color: #3f3e3e;
-      font-weight: 700;
-      font-size: 18px;
-      transition: ease-in-out 0.25s;
-    }
-    textarea {
-      min-height: 50px;
-      max-height: 500px;
-      white-space: pre-wrap;
-      word-wrap: break-word;
-      resize: vertical;
-      overflow: hidden;
-    }
-    ::-webkit-input-placeholder {
-      font-size: 12px;
-      color: #000000;
-      text-transform: uppercase;
-      font-weight: 400;
-    }
-    label {
-      font-size: 12px;
-      color: #000000;
-      text-transform: uppercase;
-      font-weight: 400;
-    }
-    input:focus,
-    select:focus,
-    textarea:focus,
-    button:focus {
-      outline: none;
-      resize: none;
-      border-bottom: 3px solid #490a98;
-    }
-    #slider-range-min {
-      outline: 0;
-      background: #f8d38e;
-      height: 3.6em;
-      border: 0;
-      border-radius: 0;
-      .ui-slider-range {
-        background: #490a98;
-        border-radius: 0;
-      }
-      .ui {
-        outline: 0;
-        top: 1.1em;
-        margin-left: -.6em;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 0;
-        background: white;
-        cursor: pointer;
-      }
-    }
-    #amount {
-      border: 0;
-      color: #3f3e3e;
-      font-weight: 500;
-      font-size: 28px;
-      padding-top: 1.1em;
-      letter-spacing: 3px;
-    }
-    button {
-      color: #490a98;
-      background: rgba(34, 34, 34, 0.0);
-      border: 3px solid #490a98;
-      height: 74px;
-      width: 200px;
-      float: right;
-      font-weight: 700;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: ease-in-out 0.25s;
-      span {
-        transition: ease-in-out 0.25s;
-      }
-    }
-    button:hover {
-      background: #f3ca43;
-      color: #000000;
-      span {
-        padding-left: 10px;
-        color: white;
-      }
-    }
-  }
+
+  

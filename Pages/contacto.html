@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contacto_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel='stylesheet' href='https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="../css/Bootstrap/bootstrap-grid.css">
     <link rel="stylesheet" href="../css/Bootstrap/bootstrap-grid.css.map">
     <link rel="stylesheet" href="../css/Bootstrap/bootstrap-grid.min.css">
@@ -56,10 +58,9 @@
              </ul>
            
          </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-           <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-         </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
        </div>
      </div>
    </div>
@@ -148,7 +149,7 @@
   
             <li>
               <div class="col-md-12">
-                <button type="submit">Enviar <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+                <button type="submit">Enviar </button>
               </div>
             </li>
   
@@ -196,6 +197,7 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
 <script src="../js/bootstrap.bundle.js"></script>
 <script src="../js/bootstrap.bundle.js.map"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
@@ -204,48 +206,16 @@
 <script src="../js/bootstrap.js.map"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/bootstrap.min.js.map"></script>
+<script src='https://adamkramer.nl/js/autosize.min.js'>
+<script  src="../js/contacto_monto.js"></script>
 
+// desplegar modal despachos
 <script>
-    // desplegar modal despachos
     $(document).ready(function () {
         $("#modalDespacho").on("click", function () {
             $('#modalDesp').modal('show');
         });
     });
-</script>
-
-<script>
-    $(document).ready(function() {
-    $("#slider-range-min").slider({
-        range: "min",
-        step: 100,
-        value: 1200,
-        min: 0,
-        max: 150000,
-        slide: function(event, ui) {
-            $("#amount").val("$" + ui.value);
-            },
-        change: function(event, ui) {
-            if (ui.value === 0) {
-                $("#amount").val("Sin determinar");
-            } else if (ui.value === 150000) {
-                $("#amount").val("$" + "150.000 o más");
-            } else {
-                 $("#amount").val("$" + $("#slider-range-min").slider("value"));
-            }
-        }
-    });
-    $("#amount").val("$" + $("#slider-range-min").slider("value"));
-
-});
-
-$(document).ready(function() {
-
-  // -- autosize init --
-
-  autosize($('textarea'));
-
-});
 </script>
 
 </html>
