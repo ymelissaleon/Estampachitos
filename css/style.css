@@ -224,9 +224,6 @@ footer {
   background-color: #c8b5e0;
   position: relative; }
 
-.vistaShop__caja:hover {
-  background-color: #f1aff1; }
-
 .vistaShop__texto {
   display: flex;
   flex-wrap: wrap;
@@ -286,9 +283,6 @@ footer {
     color: #FFFFFF;
     font-size: 80px;
     text-align: center; }
-
-.products__linea:hover {
-  background-color: #f1aff1; }
 
 .products__img {
   width: 100%;
