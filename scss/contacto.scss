@@ -1,5 +1,7 @@
 @import "../scss/head_footer.scss";
 @import "../scss/colores.scss";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&family=Roboto:wght@700&display=swap');
 
 //BANNER TITULO
 .banner__Contacto{
@@ -123,18 +125,66 @@
             letter-spacing: 1px;
             transition: ease-in-out 0.25s;
 
-            span {
-                transition: ease-in-out 0.25s;
-            }
         }
         button:hover {
             background: $amarillo;
+            color: $morado;
+        }
+    }
+
+    .contacto{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 500px;
+        position: relative;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+
+    .contacto__texto{
+        background-color: $blanco;
+        max-width: 100%;
+        max-height: auto;
+        justify-content: start;
+        h2 {
             color: $negro;
-            span {
-                padding-left: 10px;
-                color: white;
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 80px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        p{
+            color: $negro;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 35px;
+            text-align: start;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .contacto__imagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        background-color: $lila;
+        max-width: 100%;
+        max-height: 100%;
+        text-align: center;
+        a{
+            img{
+                width: 120px;
+                height: auto;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
         }
     }
+
+
+
 
   
