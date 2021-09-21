@@ -134,7 +134,7 @@
 
     .contacto{
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 500px;
         position: relative;
         margin-top: 120px;
@@ -149,17 +149,17 @@
         h2 {
             color: $negro;
             font-family: 'Archivo Black', sans-serif;
-            font-size: 80px;
-            margin-top: 20px;
-            margin-left: 20px;
+            font-size: 60px;
+            margin-top: 100px;
+            margin-left: 60px;
         }
         p{
             color: $negro;
             font-family: 'Gilroy', sans-serif;
-            font-size: 35px;
+            font-size: 20px;
             text-align: start;
-            margin-top: 20px;
-            margin-left: 20px;
+            margin-top: 40px;
+            margin-left: 60px;
             margin-right: 20px;
         }
     }
@@ -168,8 +168,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-content: space-around;
-        background-color: $lila;
+        align-content: flex-start;
+        background-color: $amarillo_claro;
         max-width: 100%;
         max-height: 100%;
         text-align: center;
