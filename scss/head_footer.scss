@@ -69,7 +69,7 @@ body{
 
         a:hover{
             color: $blanco;
-            background-color: $turquesa;
+            background-color: $amarillo;
             text-decoration: none;
             transform: scale(1.15);
         }
@@ -222,6 +222,7 @@ footer{
         overflow: hidden;
         text-align: center;
         transition: height .4s ease;
+        
 
         li {
             padding : 20px;
