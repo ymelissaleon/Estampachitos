@@ -114,7 +114,7 @@ footer {
   margin-top: 10px;
   text-align: center; }
 
-@media (max-width: 576px) and (max-width: 768px) {
+@media (max-width: 576px) {
   .nav__box img {
     width: -webkit-fill-available;
     height: auto; }
@@ -162,6 +162,18 @@ footer {
     height: 0px; }
   #touch:checked + .nav__slide {
     height: 350px; }
+  /* FOOTER  */
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .footer__caja {
+    width: 100%;
+    height: auto;
+    text-align: center; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
   /* FOOTER  */
   footer {
     display: flex;
