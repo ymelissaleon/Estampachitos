@@ -186,7 +186,68 @@
 
 // RESPONSIVE
 
-@media (max-width: 576px) and (max-width:768px){
+@media (max-width: 576px){
+    .contacto{
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    
+      
+    .contacto__texto{
+        width: 100%;
+        height: auto;
+        background-color: $blanco;
+        max-width: 100%;
+        max-height: auto;
+        justify-content: start;
+        h2 {
+            color: $negro;
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 30px;
+            margin-top: 100px;
+            margin-left: 60px;
+        }
+        p{
+            color: $negro;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 15px;
+            text-align: justify;
+            margin-top: 40px;
+            margin-left: 60px;
+            margin-right: 20px;
+        }
+    }
+    
+    .contacto__imagenes {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        background-color: $amarillo_claro;
+        max-width: 100%;
+        max-height: 100%;
+        text-align: center;
+        a{
+            img{
+                width: 60px;
+                height: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px){
     .contacto{
         display: block;
         width: 100%;

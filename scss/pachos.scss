@@ -160,7 +160,7 @@
 
 // RESPONSIVE
 
-@media (max-width: 576px) and (max-width:768px){
+@media (max-width: 576px){
 
 
   /* PACHOS  */
@@ -220,10 +220,53 @@
       padding: 10px;
   }
   
-      
-  }
-  
-  @media (min-width: 768px) and (max-width:1024px){
+}
+
+@media (min-width: 576px) and (max-width:768px){
+    .obra{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .obra__img{
+        width: 100%;
+        height: auto;
+    }
+     
+    .obra__img img{
+        width: 370px;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    .obra__text{
+        width: 100%;
+        height: auto;
+    }
+    
+    .obra__text h2{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    
+    .obra__text p{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .pachos{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 336px;
+        margin-bottom: 400px;
+    }
+    .pachos__fotos{
+        margin-top: 8px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
       
    .obra{
       display: flex;
